@@ -207,7 +207,7 @@ According to our DNS choice, we can use nip.io (wildcard DNS) or [Oracle OCI DNS
 
     > It takes around 15 to 20 minutes to complete the installation. 
 
-2. To verify the successful installation, copy the following command and paste it in the *Cloud Shell*. It checks for the condition, if *InstallComplete* condition is met, and notifies you. Here *my-verrazzano* is the name of the *Verrazzano Custom Resource*.
+2. To verify the successful installation, copy the following command and paste it in the *Cloud Shell*. It checks for the condition, if *InstallComplete* condition is met, and notifies you. Here *example-verrazzano* is the name of the *Verrazzano Custom Resource*.
 
     ```bash
     <copy>kubectl wait --timeout=20m --for=condition=InstallComplete verrazzano/example-verrazzano</copy>
@@ -226,4 +226,4 @@ According to our DNS choice, we can use nip.io (wildcard DNS) or [Oracle OCI DNS
 
 * **Author** -  Ankit Pandey
 * **Contributors** - Maciej Gruszka, Peter Nagy
-* **Last Updated By/Date** - Peter Nagy, August 2021
+* **Last Updated By/Date** - Ankit Pandey, January 2022
